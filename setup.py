@@ -31,7 +31,7 @@ setup(
     license="GNU GENERAL PUBLIC LICENSE",
     keywords=["leakybucket", "ratelimiter"],
     url="https://github.com/Sprungwunder/py-leakybucket",
-    download_url="https://github.com/Sprungwunder/py-leakybucket/archive/0.1.tar.gz",
+    download_url="https://github.com/Sprungwunder/py-leakybucket/archive/0.2.tar.gz",
     packages=['ratelimit', 'tests'],
     classifiers=[
         "Development Status :: 4 - Beta",
