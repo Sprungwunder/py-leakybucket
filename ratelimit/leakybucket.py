@@ -19,7 +19,7 @@ class LeakyBucketRateLimiter(object):
     >>> limiter = LeakyBucketRateLimiter(redis)
     >>> limiter.acquire("my_request", 10, 1000, 20, consumer_name="Consumer")
 
-    >>> for i in xrange(11):
+    >>> for i in range(11):
     ...     print(limiter.acquire("my_request", 10, 1000, 20, consumer_name="Consumer"))
     ...
     (True, 0)
@@ -33,7 +33,7 @@ class LeakyBucketRateLimiter(object):
     (True, 0)
     (True, 0)
     (False, 0.985522985458374)
-    >>> for i in xrange(11):
+    >>> for i in range(11):
     ...     print(limiter.acquire("my_request", 10, 1000, 20, consumer_name="Consumer"))
     ...
     (True, 0)
