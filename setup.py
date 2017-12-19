@@ -22,7 +22,7 @@ def read(fname):
 
 setup(
     name="py-leakybucket",
-    version="0.1",
+    version="0.2",
     author="Christian Scholz",
     author_email="c.scholz@c-s-media.net",
     description=("Python Leaky Bucket Rate Limiter with hourly limiting i.e. required for "
@@ -34,7 +34,7 @@ setup(
     download_url="https://github.com/Sprungwunder/py-leakybucket/archive/0.1.tar.gz",
     packages=['ratelimit', 'tests'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 4 - Beta",
         "Topic :: Utilities",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Internet :: WWW/HTTP",
