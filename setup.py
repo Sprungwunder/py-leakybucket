@@ -32,7 +32,7 @@ setup(
     keywords=["leakybucket", "ratelimiter"],
     url="https://github.com/Sprungwunder/py-leakybucket",
     download_url="https://github.com/Sprungwunder/py-leakybucket/archive/1.0.tar.gz",
-    packages=['ratelimit', 'tests'],
+    packages=['pyleakybucket', 'tests'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities",
