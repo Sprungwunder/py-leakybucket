@@ -7,7 +7,7 @@ import unittest
 
 import fakeredis
 
-from ratelimit.leakybucket import LeakyBucketRateLimiter
+from pyleakybucket.ratelimiting import LeakyBucketRateLimiter
 
 __author__ = 'christian'
 __created__ = '02.09.17'

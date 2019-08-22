@@ -13,7 +13,7 @@ class LeakyBucketRateLimiter(object):
     """
     Leaky Bucket Algorithm based rate limiter including a hourly bucket limit
 
-    >>> from ratelimit.leakybucket import LeakyBucketRateLimiter
+    >>> from pyleakybucket.ratelimiting import LeakyBucketRateLimiter
     >>> from redis import StrictRedis
     >>> redis = StrictRedis()
     >>> limiter = LeakyBucketRateLimiter(redis)
